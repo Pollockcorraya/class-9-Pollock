@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1600px;
+}
+#header {
+    width: 80%;
+    margin: 0 auto;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.menu ul li:last-child {
+    margin: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* Banner CSS */
+.banner {
+    margin-top: 2%;
+    min-height: 420px;
+}
+.banner-img {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 1px;
+}
+.banner-img img {
+    width: 100%;
+}
+/* Main part CSS */
+
+/* About CSS */
+#about {
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text {
+    margin-top: 2%;
+}
+.about-text h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px
+}
+.about-text p {
+    text-align: ;
+    text-align: center;
+    margin: 10px 0;
+}
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.about-item {
+    width: 32%;
+    text-align: center;
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+}
+
+.about-item img {
+    width: 7%;
+}
+  
