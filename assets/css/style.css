@@ -6,6 +6,35 @@
 body {
     max-width: 1600px;
 }
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+h4 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 8px 0;
+    background-color: #008083;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #FE6347;
+    padding: 10px 23px;
+    margin-top: 10px;
+    display: inline-block;
+}
+section {
+    margin: 3% 0;
+    padding: 3% 0;
+}
 #header {
     width: 80%;
     margin: 0 auto;
@@ -60,10 +89,9 @@ body {
 .about-text h1 {
     text-transform: capitalize;
     text-align: center;
-    font-size: 30px
+    font-size: 40px
 }
 .about-text p {
-    text-align: ;
     text-align: center;
     margin: 10px 0;
 }
@@ -76,10 +104,41 @@ body {
     width: 32%;
     text-align: center;
     border: 1px solid #EEEEEE;
-    padding: 20px;
+    padding: 30px;
+}
+.about-item h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
 .about-item img {
     width: 7%;
+}
+/* Service CSS */
+#service {
+    background-color:#F2F2F2 ;
+}
+
+.service {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+.service-item {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.service-item img {
+    width: 100%;
+}
+.service-items {
+    display: flex;
+    justify-content: space-between;
+  }
+.service-item p {
+    font-size: 18px;
+    margin: 5px 0;
 }
   
